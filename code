@@ -1,0 +1,19 @@
+CompareAllNumbersInTheString 1.0 // Выводит некоторые числа в консоль, а повторившееся число 2 раза в конце.
+                                   В данном случае: 087633
+============================
+package toString;
+
+import java.util.Scanner;
+
+public class CompareAllNumInString {
+    public static void main(String[] args) {
+        String s = "13908763";
+        for(int i=0; i < s.length(); i++) {
+        for(int j=1; j < s.length(); j++) {
+            if(s.charAt(i) == s.charAt(j)) {
+            	System.out.println(s.charAt(j));
+            }
+        }
+        }
+}
+}
