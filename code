@@ -1,3 +1,29 @@
+CompareAllNumbersInTheArray 1.1
+5
+5
+8
+9
+5
+5
+===================================
+package toString;
+
+import java.util.Scanner;
+
+public class CompareAllNumInArray {
+	public static void main(String[] args) {
+        int a[] = {1, 5, 8, 9, 5};
+        for(int i=0; i < a.length; i++) {
+        for(int j=1; j < a.length; j++) {
+            if(a[i] == a[j]) {
+             System.out.println(a[j]);
+            }
+        }
+        }
+}
+}
+
+
 CompareAllNumbersInTheString 1.0 // Выводит некоторые числа в консоль, а повторившееся число 2 раза в конце.
                                    В данном случае: 3
 3
